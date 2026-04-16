@@ -1,0 +1,105 @@
+/*
+
+filename: [Tanadol Baibong]
+
+author: [Tanadol Baibong]
+
+created: [16/04/2026]
+
+last modified: [17/04/2026]
+
+description: [lab04.html]
+
+*/
+
+body { 
+    background: linear-gradient(rgb(37, 37, 37), rgb(222, 222, 222));
+}
+
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+header {
+    float: top;
+    font-size: 2em;
+    border: 10px inset black;
+    background-color: red;
+    text-align: center;
+}
+
+.page {
+    background-color: rgb(237, 80, 80);
+    display: inline-block;
+    padding: 1em;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.look { 
+    color: aliceblue;
+    text-align: center;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    text-decoration: underline;
+}
+
+.images {  
+    margin: 50px;
+}
+
+.skills {
+    text-decoration-line: underline;
+}
+
+#job1 { 
+    font-size: 18px;
+    float: left;
+    width: 25%;
+    margin: 5em;
+    padding: 5em;
+    border: 10px inset red;
+    background-color: rgb(213, 238, 247);
+}
+
+#architect {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#job2 { 
+    font-size: 18px;
+    float: left;
+    width: 25%;
+    margin: 5em;
+    padding: 5em;
+    border: 10px inset red;
+    background-color: rgb(213, 238, 247);
+
+ }
+
+ #manager {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 115px;
+    
+ }
+
+
+
+ .buttons {
+    width: 200px;
+    height: 100px;
+    text-decoration:solid;
+    text-align: center;
+    background-color: rgb(255, 248, 248);
+    font-size: 25px;
+    cursor: pointer;
+    margin-top:100px;
+    margin-left: 100px;
+ }
+
+ button a {
+    text-decoration: none;
+ }
