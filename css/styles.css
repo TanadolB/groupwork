@@ -49,6 +49,7 @@ header {
 }
 
 .skills {
+    font-weight: bold;
     text-decoration-line: underline;
 }
 
@@ -86,7 +87,10 @@ header {
     
  }
 
-
+ .response {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
  .buttons {
     width: 200px;
@@ -102,4 +106,10 @@ header {
 
  button a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+
+ button:hover {
+    background-color: rgb(199, 239, 214);
  }
