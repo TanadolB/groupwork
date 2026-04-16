@@ -23,7 +23,7 @@ body {
 header {
     float: top;
     font-size: 2em;
-    border: 10px inset black;
+    border: 10px solid black;
     background-color: red;
     text-align: center;
 }
@@ -33,14 +33,15 @@ header {
     display: inline-block;
     padding: 1em;
     border: 5px solid black;
+    border-radius: 15px;
     margin: 20px;
 }
 
 .look { 
     color: aliceblue;
     text-align: center;
-    border-bottom: 10px solid black;
-    border-top: 10px solid black;
+    border-bottom: 10px dashed rgb(176, 176, 176);
+    border-top: 10px dashed rgb(176, 176, 176);
     text-decoration: underline;
 }
 
@@ -59,11 +60,14 @@ header {
     width: 25%;
     margin: 5em;
     padding: 5em;
-    border: 10px inset red;
+    border: 10px groove red;
     background-color: rgb(213, 238, 247);
 }
 
 #architect {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
     font-size: 35px;
     text-align: center;
     margin-bottom: 100px;
@@ -75,12 +79,15 @@ header {
     width: 25%;
     margin: 5em;
     padding: 5em;
-    border: 10px inset red;
+    border: 10px groove red;
     background-color: rgb(213, 238, 247);
 
  }
 
  #manager {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
     font-size: 35px;
     text-align: center;
     margin-bottom: 115px;
